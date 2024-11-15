@@ -1,0 +1,69 @@
+/* General styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5dc;
+  color: #5f4b32;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  background-color: #d2b48c;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: #c19a6b;
+  padding: 10px;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #5f4b32;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Intro section */
+.intro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  margin: 20px;
+  background-color: #f5deb3;
+  border-radius: 10px;
+}
+
+.profile-photo {
+  max-width: 200px;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.intro-text {
+  max-width: 600px;
+}
+
+.intro-text h2 {
+  color: #8b4513;
+}
+
+/* Footer styling */
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #d2b48c;
+  position: relative;
+}
+  
+  
