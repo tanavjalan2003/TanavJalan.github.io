@@ -99,3 +99,9 @@ footer {
   font-weight: bold;
   color: #5f4b32;
 }
+
+/* Center alignment for non-linked items */
+.skills-grid div img {
+  display: block;
+  margin: 0 auto;
+}
