@@ -58,10 +58,12 @@ nav a:hover {
   color: #8b4513;
 }
 
-/* Footer styling */
+/* Footer setup for sticky behavior */
 footer {
   text-align: center;
   padding: 10px;
   background-color: #d2b48c;
-  position: relative;
+  margin-top: auto; /* Ensures footer stays at the bottom when content is short */
+  position: sticky;
+  bottom: 0;
 }
