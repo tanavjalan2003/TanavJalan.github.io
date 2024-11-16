@@ -6,7 +6,7 @@ body {
   margin: 0;
   display: flex;
   flex-direction: column;
-  min-height: 100vh; /* Ensures the body always fills the viewport height */
+  min-height: 100vh;
 }
 
 header {
@@ -58,20 +58,10 @@ nav a:hover {
   color: #8b4513;
 }
 
-/* Main content styling */
-main {
-  flex: 1; /* Ensures the main content takes up available space */
-  padding: 20px;
-  margin: 20px;
-  background-color: #f5deb3;
-  border-radius: 10px;
-}
-
+/* Footer styling */
 footer {
   text-align: center;
   padding: 10px;
   background-color: #d2b48c;
-  margin-top: auto; /* Ensures footer stays at the bottom when content is short */
-  position: sticky;
-  bottom: 0;
+  position: relative;
 }
