@@ -3,23 +3,24 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Skills - Tanav Jalan</title>
+  <title>Skills</title>
   <link rel="stylesheet" href="style.css">
-  <script defer src="script.js"></script>
+  <script src="skills.js" defer></script>
 </head>
 <body>
   <header>
-    <h1>Skills</h1>
     <nav>
-      <a href="index.html">Home</a>
-      <a href="experience.html">Experience</a>
-      <a href="education.html">Education</a>
-      <a href="projects.html">Projects</a>
-      <a href="contact.html">Contact</a>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="skills.html" class="active">Skills</a></li>
+        <li><a href="education.html">Education</a></li>
+        <li><a href="work-experience.html">Work Experience</a></li>
+      </ul>
     </nav>
   </header>
+
   <main>
-    <h2>Explore My Skills</h2>
+    <h1>My Skills</h1>
     <p class="skills-intro">
       Below are the categories of my technical expertise. Use the arrows to explore the tools and technologies I am proficient in.
     </p>
@@ -27,54 +28,61 @@
     <div class="skills-grid">
       <!-- Programming Languages -->
       <div>
-        <img src="images/program.png" alt="Programming Languages">
-        <p>Programming Languages</p>
-        <div class="slideshow-container">
-          <button class="arrow" id="prev-programming">&lt;</button>
-          <div class="slideshow" id="programming-slides">
-            <img src="images/python.png" alt="Python">
-            <img src="images/sql.png" alt="SQL">
-            <img src="images/cplusplus.png" alt="C++">
-            <img src="images/java.png" alt="Java">
+        <img src="images/programming.png" alt="Programming Languages">
+        <div>
+          <p>Programming Languages</p>
+          <div class="slideshow-container">
+            <button class="arrow" id="prev-programming">&lt;</button>
+            <div class="slideshow" id="programming-slides">
+              <img src="images/python.png" alt="Python">
+              <img src="images/sql.png" alt="SQL">
+              <img src="images/cplusplus.png" alt="C++">
+              <img src="images/java.png" alt="Java">
+            </div>
+            <button class="arrow" id="next-programming">&gt;</button>
           </div>
-          <button class="arrow" id="next-programming">&gt;</button>
         </div>
       </div>
 
       <!-- Cloud Platforms -->
       <div>
         <img src="images/cloud.png" alt="Cloud Platforms">
-        <p>Cloud Platforms and Operating Systems</p>
-        <div class="slideshow-container">
-          <button class="arrow" id="prev-cloud">&lt;</button>
-          <div class="slideshow" id="cloud-slides">
-            <img src="images/aws.png" alt="AWS">
-            <img src="images/microsoft.png" alt="Microsoft Azure">
-            <img src="images/github.png" alt="GitHub">
+        <div>
+          <p>Cloud Platforms</p>
+          <div class="slideshow-container">
+            <button class="arrow" id="prev-cloud">&lt;</button>
+            <div class="slideshow" id="cloud-slides">
+              <img src="images/aws.png" alt="AWS">
+              <img src="images/microsoft.png" alt="Microsoft Azure">
+              <img src="images/github.png" alt="GitHub">
+            </div>
+            <button class="arrow" id="next-cloud">&gt;</button>
           </div>
-          <button class="arrow" id="next-cloud">&gt;</button>
         </div>
       </div>
 
       <!-- Development Tools -->
       <div>
-        <img src="images/devops.png" alt="Development Tools">
-        <p>Development Tools</p>
-        <div class="slideshow-container">
-          <button class="arrow" id="prev-tools">&lt;</button>
-          <div class="slideshow" id="tools-slides">
-            <img src="images/nodejs.png" alt="Node.js">
-            <img src="images/reactjs.png" alt="React.js">
-            <img src="images/swiftui.png" alt="SwiftUI">
-            <img src="images/firebase.png" alt="Firebase">
+        <img src="images/tools.png" alt="Development Tools">
+        <div>
+          <p>Development Tools</p>
+          <div class="slideshow-container">
+            <button class="arrow" id="prev-tools">&lt;</button>
+            <div class="slideshow" id="tools-slides">
+              <img src="images/nodejs.png" alt="Node.js">
+              <img src="images/reactjs.png" alt="React.js">
+              <img src="images/swiftui.png" alt="SwiftUI">
+              <img src="images/firebase.png" alt="Firebase">
+            </div>
+            <button class="arrow" id="next-tools">&gt;</button>
           </div>
-          <button class="arrow" id="next-tools">&gt;</button>
         </div>
       </div>
     </div>
   </main>
+
   <footer>
-    <p>© 2024 Tanav Jalan. All rights reserved.</p>
+    <p>&copy; 2024 Tanav's Portfolio. All rights reserved.</p>
   </footer>
 </body>
 </html>
