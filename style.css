@@ -66,55 +66,56 @@ footer {
   position: relative;
 }
 
-/* Grid Layout for Skills Pages */
-.skills-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  gap: 20px;
-  padding: 20px;
-}
-
-.skills-grid div {
-  text-align: center;
-}
-
-.skills-grid img {
-  width: 120px;
-  height: 120px;
-  object-fit: contain;
-  background-color: #f5deb3;
-  border-radius: 10px;
-  padding: 10px;
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
-  transition: transform 0.3s;
-}
-
-.skills-grid img:hover {
-  transform: scale(1.1);
-}
-
-.skills-grid p {
-  margin-top: 10px;
-  font-size: 14px;
-  font-weight: bold;
-  color: #5f4b32;
-}
-
-/* Center alignment for non-linked items */
-.skills-grid div img {
-  display: block;
-  margin: 0 auto;
-}
-
-/* Introduction Paragraph */
 .skills-intro {
   text-align: center;
-  font-size: 18px;
-  margin-bottom: 20px;
-  color: #5f4b32;
-  max-width: 800px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-bottom: 2rem;
+}
+
+.skills-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 1rem;
+}
+
+.skills-category {
+  flex: 1;
+  text-align: center;
+}
+
+.skills-category img {
+  width: 80px;
+  height: 80px;
+  display: block;
+  margin: 0 auto 1rem;
+}
+
+.slideshow-container {
+  flex: 2;
+  display: flex;
+  align-items: center;
+}
+
+.arrow {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.slideshow {
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+}
+
+.slideshow img {
+  width: 100%;
+  max-width: 150px;
+  margin: 0 10px;
+  transition: transform 0.5s ease-in-out;
 }
 
 /* Education Page Styles */
