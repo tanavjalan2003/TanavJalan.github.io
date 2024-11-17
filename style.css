@@ -66,25 +66,28 @@ footer {
   position: relative;
 }
 
-/* Grid Layout for Skills Pages */
+/* Adjust the skills grid */
 .skills-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); /* Increase min-width for side-by-side alignment */
   gap: 20px;
   padding: 20px;
 }
 
 .skills-grid div {
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Ensures proper alignment for side-by-side view */
   background-color: #f5deb3;
   border-radius: 10px;
   padding: 20px;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
 }
 
+/* Category image and text on the left */
 .skills-grid img {
-  width: 120px;
-  height: 120px;
+  width: 100px;
+  height: 100px;
   object-fit: contain;
   background-color: #fff;
   border-radius: 10px;
@@ -93,35 +96,35 @@ footer {
 }
 
 .skills-grid p {
-  margin-top: 10px;
   font-size: 16px;
   font-weight: bold;
   color: #5f4b32;
+  margin-left: 10px;
 }
 
-/* Slideshow Styles */
+/* Slideshow beside the category */
 .slideshow-container {
   display: flex;
   align-items: center;
   gap: 10px;
-  margin-top: 10px;
 }
 
 .slideshow {
   display: flex;
   overflow: hidden;
   width: 200px;
-  height: 120px;
+  height: 100px; /* Adjusted for alignment */
   position: relative;
 }
 
 .slideshow img {
   width: 200px;
-  height: 120px;
+  height: 100px;
   object-fit: contain;
   transition: transform 0.5s ease-in-out;
 }
 
+/* Arrows styling */
 .arrow {
   background-color: #8b4513;
   color: #fff;
