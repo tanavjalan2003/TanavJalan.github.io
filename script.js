@@ -1,41 +1,19 @@
-// Programming Slideshow
-const programmingSlides = document.getElementById('programming-slides');
-let programmingIndex = 0;
+function createSlideshow(slideshowId, prevId, nextId) {
+  const slides = document.getElementById(slideshowId);
+  let index = 0;
 
-document.getElementById('next-programming').addEventListener('click', () => {
-  programmingIndex = (programmingIndex + 1) % programmingSlides.children.length;
-  programmingSlides.style.transform = `translateX(-${programmingIndex * 200}px)`;
-});
+  document.getElementById(nextId).addEventListener("click", () => {
+    index = (index + 1) % slides.children.length;
+    slides.style.transform = `translateX(-${index * 200}px)`;
+  });
 
-document.getElementById('prev-programming').addEventListener('click', () => {
-  programmingIndex = (programmingIndex - 1 + programmingSlides.children.length) % programmingSlides.children.length;
-  programmingSlides.style.transform = `translateX(-${programmingIndex * 200}px)`;
-});
+  document.getElementById(prevId).addEventListener("click", () => {
+    index = (index - 1 + slides.children.length) % slides.children.length;
+    slides.style.transform = `translateX(-${index * 200}px)`;
+  });
+}
 
-// Cloud Slideshow
-const cloudSlides = document.getElementById('cloud-slides');
-let cloudIndex = 0;
-
-document.getElementById('next-cloud').addEventListener('click', () => {
-  cloudIndex = (cloudIndex + 1) % cloudSlides.children.length;
-  cloudSlides.style.transform = `translateX(-${cloudIndex * 200}px)`;
-});
-
-document.getElementById('prev-cloud').addEventListener('click', () => {
-  cloudIndex = (cloudIndex - 1 + cloudSlides.children.length) % cloudSlides.children.length;
-  cloudSlides.style.transform = `translateX(-${cloudIndex * 200}px)`;
-});
-
-// Tools Slideshow
-const toolsSlides = document.getElementById('tools-slides');
-let toolsIndex = 0;
-
-document.getElementById('next-tools').addEventListener('click', () => {
-  toolsIndex = (toolsIndex + 1) % toolsSlides.children.length;
-  toolsSlides.style.transform = `translateX(-${toolsIndex * 200}px)`;
-});
-
-document.getElementById('prev-tools').addEventListener('click', () => {
-  toolsIndex = (toolsIndex - 1 + toolsSlides.children.length) % toolsSlides.children.length;
-  toolsSlides.style.transform = `translateX(-${toolsIndex * 200}px)`;
-});
+// Initialize slideshows
+createSlideshow("programming-slides", "prev-programming", "next-programming");
+createSlideshow("cloud-slides", "prev-cloud", "next-cloud");
+createSlideshow("tools-slides", "prev-tools", "next-tools");
