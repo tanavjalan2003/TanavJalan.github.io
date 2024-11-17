@@ -66,77 +66,56 @@ footer {
   position: relative;
 }
 
-/* Adjust the skills grid */
-.skills-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); /* Increase min-width for side-by-side alignment */
-  gap: 20px;
-  padding: 20px;
+.skills-intro {
+  text-align: center;
+  margin-bottom: 2rem;
 }
 
-.skills-grid div {
+.skills-row {
   display: flex;
   align-items: center;
-  justify-content: space-between; /* Ensures proper alignment for side-by-side view */
-  background-color: #f5deb3;
-  border-radius: 10px;
-  padding: 20px;
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  margin-bottom: 2rem;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 1rem;
 }
 
-/* Category image and text on the left */
-.skills-grid img {
-  width: 100px;
-  height: 100px;
-  object-fit: contain;
-  background-color: #fff;
-  border-radius: 10px;
-  padding: 10px;
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+.skills-category {
+  flex: 1;
+  text-align: center;
 }
 
-.skills-grid p {
-  font-size: 16px;
-  font-weight: bold;
-  color: #5f4b32;
-  margin-left: 10px;
+.skills-category img {
+  width: 80px;
+  height: 80px;
+  display: block;
+  margin: 0 auto 1rem;
 }
 
-/* Slideshow beside the category */
 .slideshow-container {
+  flex: 2;
   display: flex;
   align-items: center;
-  gap: 10px;
+}
+
+.arrow {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
 }
 
 .slideshow {
   display: flex;
   overflow: hidden;
-  width: 200px;
-  height: 100px; /* Adjusted for alignment */
-  position: relative;
+  width: 100%;
 }
 
 .slideshow img {
-  width: 200px;
-  height: 100px;
-  object-fit: contain;
+  width: 100%;
+  max-width: 150px;
+  margin: 0 10px;
   transition: transform 0.5s ease-in-out;
-}
-
-/* Arrows styling */
-.arrow {
-  background-color: #8b4513;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  padding: 10px;
-  cursor: pointer;
-  font-size: 18px;
-}
-
-.arrow:hover {
-  background-color: #5f4b32;
 }
 
 /* Education Page Styles */
