@@ -281,8 +281,8 @@ footer {
   margin: 20px auto;
   width: 90%;
   max-width: 800px;
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
   text-align: center;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
 }
 
 #contact h2 {
@@ -290,27 +290,22 @@ footer {
   margin-bottom: 15px;
 }
 
-.contact-list {
+.contact-grid {
   display: flex;
-  flex-direction: column;
+  justify-content: space-around;
   align-items: center;
   gap: 15px;
+  flex-wrap: wrap;
   margin-top: 20px;
 }
 
 .contact-item {
   display: flex;
+  flex-direction: column;
   align-items: center;
+  text-align: center;
   gap: 10px;
-  text-decoration: none;
-  color: #5f4b32;
-  font-size: 16px;
-  font-weight: bold;
-  transition: transform 0.2s;
-}
-
-.contact-item:hover {
-  transform: scale(1.05);
+  width: 100px; /* Ensures uniform width for items */
 }
 
 .contact-item img {
@@ -321,6 +316,14 @@ footer {
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.contact-item span {
+.contact-item a {
   color: #5f4b32;
+  font-size: 14px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.contact-item a:hover {
+  text-decoration: underline;
+  color: #003580;
 }
