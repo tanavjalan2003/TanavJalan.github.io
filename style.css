@@ -58,6 +58,30 @@ nav a:hover {
   color: #8b4513;
 }
 
+/* Resume Button Container */
+.resume-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+/* Resume Button Styling */
+.resume-button {
+  padding: 15px 25px;
+  background-color: #8b4513;
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.resume-button:hover {
+  background-color: #5f4b32;
+}
+
 /* Footer styling */
 footer {
   text-align: center;
