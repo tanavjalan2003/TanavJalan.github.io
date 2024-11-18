@@ -218,3 +218,57 @@ footer {
 .experience-entry ul li {
   margin-bottom: 5px;
 }
+
+/* Certifications Section */
+#certifications {
+  padding: 20px;
+  background-color: #f5deb3;
+  border-radius: 10px;
+  margin: 20px auto;
+  width: 90%;
+  max-width: 800px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+#certifications h2 {
+  text-align: center;
+  color: #8b4513;
+  margin-bottom: 15px;
+}
+
+.certification-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.certification-list li {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 15px;
+  font-size: 16px;
+  color: #5f4b32;
+}
+
+.cert-logo {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  border-radius: 5px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.certification-list span {
+  font-weight: bold;
+  color: #8b4513;
+}
+
+.certification-list a {
+  color: #0056b3;
+  text-decoration: none;
+}
+
+.certification-list a:hover {
+  text-decoration: underline;
+  color: #003580;
+}
