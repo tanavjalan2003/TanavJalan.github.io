@@ -26,44 +26,54 @@
     <p class="skills-intro">
       Below are the categories of my technical expertise. Click on the icons to learn more about my experience with each skill set.
     </p>
-    <div class="skills-grid">
-      <!-- Programming Section -->
-      <div>
-        <a href="programming.html">
-          <img src="images/program.png" alt="Programming Languages">
-          <p>Programming Languages</p>
-        </a>
+
+    <!-- Skills Section with Arrows for Navigation -->
+    <div class="skills-wrapper">
+      <button class="arrow left-arrow" onclick="scrollSkills('left')">&#8592;</button>
+      <div class="skills-grid-wrapper">
+        <div class="skills-grid">
+          <!-- Programming Section -->
+          <div>
+            <a href="programming.html">
+              <img src="images/program.png" alt="Programming Languages">
+              <p>Programming Languages</p>
+            </a>
+          </div>
+          <!-- Cloud Platforms Section -->
+          <div>
+            <a href="cloud.html">
+              <img src="images/cloud.png" alt="Cloud Platforms and Operating Systems">
+              <p>Cloud Platforms and Operating Systems</p>
+            </a>
+          </div>
+          <!-- Development Tools Section -->
+          <div>
+            <a href="development.html">
+              <img src="images/development.png" alt="Development Tools">
+              <p>Development Tools</p>
+            </a>
+          </div>
+          <div>
+            <a href="design.html">
+              <img src="images/design.png" alt="Design & User Experience">
+              <p>Design & User Experiences</p>
+            </a>
+          </div>
+          <div>
+            <a href="soft.html">
+              <img src="images/soft.png" alt="Soft Skills">
+              <p>Soft Skills</p>
+            </a>
+          </div>
+        </div>
       </div>
-      <!-- Cloud Platforms Section -->
-      <div>
-        <a href="cloud.html">
-          <img src="images/cloud.png" alt="Cloud Platforms and Operating Systems">
-          <p>Cloud Platforms and Operating Systems</p>
-        </a>
-      </div>
-      <!-- Development Tools Section -->
-      <div>
-        <a href="development.html">
-          <img src="images/development.png" alt="Development Tools">
-          <p>Development Tools</p>
-        </a>
-      </div>
-      <div>
-        <a href="design.html">
-          <img src="images/design.png" alt="Design & User Experience">
-          <p>Design & User Experiences</p>
-        </a>
-      </div>
-      <div>
-        <a href="soft.html">
-          <img src="images/soft.png" alt="Soft Skills">
-          <p>Soft Skiils</p>
-        </a>
-      </div>
+      <button class="arrow right-arrow" onclick="scrollSkills('right')">&#8594;</button>
     </div>
   </main>
   <footer>
     <p>© 2024 Tanav Jalan. All rights reserved.</p>
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
