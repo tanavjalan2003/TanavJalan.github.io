@@ -1,8 +1,8 @@
 /* General styling */
 body {
   font-family: Arial, sans-serif;
-  background-color: #f5f5dc;
-  color: #5f4b32;
+  background-color: #f4f8f4;
+  color: #0c100b;
   margin: 0;
   display: flex;
   flex-direction: column;
@@ -12,20 +12,20 @@ body {
 header {
   text-align: center;
   padding: 20px;
-  background-color: #d2b48c;
+  background-color: #a8d1a6;
 }
 
 nav {
   display: flex;
   justify-content: center;
-  background-color: #c19a6b;
+  background-color: #82c57f;
   padding: 10px;
 }
 
 nav a {
   margin: 0 15px;
   text-decoration: none;
-  color: #5f4b32;
+  color: #0c100b;
   font-weight: bold;
 }
 
@@ -40,7 +40,7 @@ nav a:hover {
   justify-content: center;
   padding: 20px;
   margin: 20px;
-  background-color: #f5deb3;
+  background-color: #a8d1a6;
   border-radius: 10px;
 }
 
@@ -55,7 +55,7 @@ nav a:hover {
 }
 
 .intro-text h2 {
-  color: #8b4513;
+  color: #68a665;
 }
 
 /* Resume Button Container */
@@ -68,7 +68,7 @@ nav a:hover {
 /* Resume Button Styling */
 .resume-button {
   padding: 15px 25px;
-  background-color: #8b4513;
+  background-color: #68a665;
   color: white;
   text-decoration: none;
   font-size: 16px;
@@ -79,14 +79,14 @@ nav a:hover {
 }
 
 .resume-button:hover {
-  background-color: #5f4b32;
+  background-color: #82c57f;
 }
 
 /* Footer styling */
 footer {
   text-align: center;
   padding: 10px;
-  background-color: #d2b48c;
+  background-color: #a8d1a6;
   position: relative;
 }
 
@@ -106,7 +106,7 @@ footer {
   width: 120px;
   height: 120px;
   object-fit: contain;
-  background-color: #f5deb3;
+  background-color: #a8d1a6;
   border-radius: 10px;
   padding: 10px;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
@@ -121,7 +121,7 @@ footer {
   margin-top: 10px;
   font-size: 14px;
   font-weight: bold;
-  color: #5f4b32;
+  color: #0c100b;
 }
 
 /* Center alignment for non-linked items */
@@ -135,7 +135,7 @@ footer {
   text-align: center;
   font-size: 18px;
   margin-bottom: 20px;
-  color: #5f4b32;
+  color: #0c100b;
   max-width: 800px;
   margin-left: auto;
   margin-right: auto;
@@ -148,7 +148,7 @@ footer {
   gap: 20px;
   margin-bottom: 30px;
   padding: 10px;
-  background-color: #f5deb3;
+  background-color: #a8d1a6;
   border-radius: 10px;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
 }
@@ -167,12 +167,12 @@ footer {
 
 .education-entry h3 {
   margin: 0;
-  color: #8b4513;
+  color: #68a665;
 }
 
 .education-entry p {
   margin: 5px 0;
-  color: #5f4b32;
+  color: #0c100b;
 }
 
 /* Work Experience Section */
@@ -182,7 +182,7 @@ footer {
   gap: 20px;
   margin-bottom: 30px;
   padding: 10px;
-  background-color: #f5deb3;
+  background-color: #a8d1a6;
   border-radius: 10px;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
 }
@@ -201,12 +201,12 @@ footer {
 
 .experience-entry h3 {
   margin: 0;
-  color: #8b4513;
+  color: #68a665;
 }
 
 .experience-entry p, .experience-entry ul {
   margin: 5px 0;
-  color: #5f4b32;
+  color: #0c100b;
 }
 
 .experience-entry ul {
@@ -222,7 +222,7 @@ footer {
   display: inline-block;
   margin-top: 10px;
   padding: 5px 15px;
-  background-color: #8b4513;
+  background-color: #68a665;
   color: white;
   text-decoration: none;
   font-size: 14px;
@@ -231,13 +231,13 @@ footer {
 }
 
 .document-link:hover {
-  background-color: #5f4b32;
+  background-color: #82c57f;
 }
 
 /* Certifications Section */
 #certifications {
   padding: 25px;
-  background-color: #f9f2e7;
+  background-color: #f4f8f4;
   border-radius: 15px;
   margin: 20px auto;
   width: 90%;
@@ -248,7 +248,7 @@ footer {
 
 #certifications h2 {
   text-align: center;
-  color: #6a4b34;
+  color: #68a665;
   font-size: 24px;
   margin-bottom: 20px;
   text-transform: uppercase;
@@ -289,7 +289,7 @@ footer {
 
 .certification-list span {
   font-weight: bold;
-  color: #6a4b34;
+  color: #68a665;
   font-size: 18px;
 }
 
@@ -332,11 +332,10 @@ footer {
   }
 }
 
-
 /* Contact Section */
 #contact {
   padding: 20px;
-  background-color: #f5deb3;
+  background-color: #a8d1a6;
   border-radius: 10px;
   margin: 20px auto;
   width: 90%;
@@ -346,7 +345,7 @@ footer {
 }
 
 #contact h2 {
-  color: #8b4513;
+  color: #68a665;
   margin-bottom: 15px;
 }
 
@@ -361,18 +360,11 @@ footer {
 
 .contact-item {
   display: inline-block;
+  font-size: 16px;
+  color: #0c100b;
   text-decoration: none;
 }
 
-.contact-item img {
-  width: 50px;
-  height: 50px;
-  object-fit: contain;
-  border-radius: 5px;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease;
-}
-
-.contact-item:hover img {
-  transform: scale(1.1);
+.contact-item:hover {
+  text-decoration: underline;
 }
