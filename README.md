@@ -1,7 +1,7 @@
 # Portfolio Website for Tanav Jalan
 
 Welcome to the portfolio website of **Tanav Jalan**. This website is designed to showcase skills, education, certifications, work experience, projects, recommendations, and contact information in a professional and visually appealing way.
-![Screenshot of Portfolio Website](logos/portfolio-screenshot.png)
+![Screenshot of Portfolio Website](images/portfolio-main.png)
 ---
 
 ## Table of Contents
