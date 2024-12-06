@@ -45,7 +45,7 @@ Welcome to the portfolio website of **Tanav Jalan**. This website is designed to
 ├── contact.html # Contact Page 
 ├── style.css # CSS file for styling 
 ├── script.js # JavaScript file for interactive elements 
-├── /logos/ # Folder for institution and platform logos 
+├── /images/ # Folder for institution and platform logos 
 ├── /documents/ # Folder for certificates and offer letters 
 
 
