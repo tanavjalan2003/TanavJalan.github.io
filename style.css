@@ -236,57 +236,102 @@ footer {
 
 /* Certifications Section */
 #certifications {
-  padding: 20px;
-  background-color: #f5deb3;
-  border-radius: 10px;
+  padding: 25px;
+  background-color: #f9f2e7;
+  border-radius: 15px;
   margin: 20px auto;
   width: 90%;
-  max-width: 800px;
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  max-width: 850px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  font-family: 'Arial', sans-serif;
 }
 
 #certifications h2 {
   text-align: center;
-  color: #8b4513;
-  margin-bottom: 15px;
+  color: #6a4b34;
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 .certification-list {
   list-style-type: none;
   padding: 0;
+  margin: 0;
 }
 
 .certification-list li {
   display: flex;
   align-items: center;
-  gap: 15px;
+  gap: 20px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
   margin-bottom: 15px;
-  font-size: 16px;
-  color: #5f4b32;
+  background-color: #fff;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.certification-list li:hover {
+  transform: scale(1.02);
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
 }
 
 .cert-logo {
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   object-fit: contain;
-  border-radius: 5px;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.15);
 }
 
 .certification-list span {
   font-weight: bold;
-  color: #8b4513;
+  color: #6a4b34;
+  font-size: 18px;
+}
+
+.certification-list ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 
 .certification-list a {
-  color: #0056b3;
+  color: #1a73e8;
   text-decoration: none;
+  font-size: 16px;
+  transition: color 0.2s, text-decoration 0.2s;
 }
 
 .certification-list a:hover {
   text-decoration: underline;
-  color: #003580;
+  color: #135bb5;
 }
+
+/* Media Queries for Responsiveness */
+@media (max-width: 600px) {
+  .certification-list li {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .cert-logo {
+    width: 40px;
+    height: 40px;
+  }
+
+  .certification-list span {
+    font-size: 16px;
+  }
+
+  .certification-list a {
+    font-size: 14px;
+  }
+}
+
 
 /* Contact Section */
 #contact {
