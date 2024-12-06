@@ -35,19 +35,19 @@ Welcome to the portfolio website of **Tanav Jalan**. This website is designed to
 ---
 
 ## File Structure
-/project-folder 
-├── index.html # Home Page 
-├── skills.html # Skills Page 
-├── education.html # Education Page 
-├── certifications.html # Certifications Page 
-├── work-experience.html # Work Experience Page 
-├── recommendations.html # Recommendations Page 
-├── contact.html # Contact Page 
-├── style.css # CSS file for styling 
-├── script.js # JavaScript file for interactive elements 
-├── /images/ # Folder for institution and platform logos 
-├── /documents/ # Folder for certificates and offer letters
-
+- **index.html**: Home Page  
+- **education.html**: Education Page  
+- **certifications.html**: Certifications Page
+- **awards.html**: Awards Page
+- **skills.html**: Skills Page    
+- **experience.html**: Work Experience Page
+- **projects.html**: Projects Page  
+- **recommendations.html**: Recommendations Page  
+- **contact.html**: Contact Page  
+- **style.css**: CSS file for styling  
+- **script.js**: JavaScript file for interactive elements  
+- **/images/**: Folder for institution and platform logos  
+- **/documents/**: Folder for certificates and offer letters  
 
 ## How to Use
 1. **Navigate Pages**:
