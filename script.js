@@ -1,24 +1,18 @@
-let currentIndex = 0;
-
-function scrollSkills(direction) {
-  const skillWrapper = document.querySelector('.skills-grid-wrapper');
-  const totalSkills = document.querySelectorAll('.skills-grid div').length;
-  const skillWidth = document.querySelector('.skills-grid div').offsetWidth + 20; // accounting for gap
+// Function for scrolling each category's slideshow
+function scrollSkills(category, direction) {
+  const scrollWrapper = document.getElementById(category);
+  const skillWidth = document.querySelector(`#${category} .skills-scroll img`).offsetWidth + 20; // includes margin
+  const maxScroll = scrollWrapper.scrollWidth - scrollWrapper.clientWidth;
   
+  let newScrollPosition = scrollWrapper.scrollLeft;
+
   if (direction === 'right') {
-    if (currentIndex < totalSkills - 1) {
-      currentIndex++;
-    } else {
-      currentIndex = 0; // Loop back to the beginning
-    }
+    newScrollPosition += skillWidth;
+    if (newScrollPosition > maxScroll) newScrollPosition = 0; // Loop back to start
   } else if (direction === 'left') {
-    if (currentIndex > 0) {
-      currentIndex--;
-    } else {
-      currentIndex = totalSkills - 1; // Loop to the end
-    }
+    newScrollPosition -= skillWidth;
+    if (newScrollPosition < 0) newScrollPosition = maxScroll; // Loop back to end
   }
 
-  // Move the grid to show the right skills
-  skillWrapper.style.transform = `translateX(-${currentIndex * skillWidth}px)`;
+  scrollWrapper.scrollLeft = newScrollPosition;
 }
