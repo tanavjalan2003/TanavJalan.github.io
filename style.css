@@ -90,28 +90,50 @@ footer {
   position: relative;
 }
 
-/* Skills Section Wrapping */
-.skills-wrapper {
+/* Layout for skill categories */
+.skills-list {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin: 40px;
+}
+
+.skill-category {
   position: relative;
+}
+
+.skill-category h3 {
+  font-size: 22px;
+  font-weight: bold;
+  color: #5f4b32;
+  margin-bottom: 10px;
+}
+
+/* Slideshow Container */
+.skills-slideshow {
+  position: relative;
+  display: flex;
+  align-items: center;
   overflow: hidden;
 }
 
-.skills-grid-wrapper {
+/* Horizontal Scroll Wrapper */
+.skills-scroll-wrapper {
   display: flex;
-  transition: transform 0.5s ease-in-out;
+  justify-content: start;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  width: 80%;
 }
 
-.skills-grid {
+.skills-scroll {
   display: flex;
   gap: 20px;
-  padding: 20px;
+  margin: 0 auto;
 }
 
-.skills-grid div {
-  text-align: center;
-}
-
-.skills-grid img {
+/* Images inside the slideshow */
+.skills-scroll img {
   width: 120px;
   height: 120px;
   object-fit: contain;
@@ -119,28 +141,16 @@ footer {
   border-radius: 10px;
   padding: 10px;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
-  transition: transform 0.3s;
 }
 
-.skills-grid img:hover {
-  transform: scale(1.1);
-}
-
-.skills-grid p {
-  margin-top: 10px;
-  font-size: 14px;
-  font-weight: bold;
-  color: #5f4b32;
-}
-
-/* Arrow Styling */
+/* Arrow buttons */
 .arrow {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
   font-size: 24px;
   background-color: rgba(0, 0, 0, 0.2);
-  color: #fff;
+  color: white;
   padding: 10px;
   border: none;
   cursor: pointer;
@@ -155,7 +165,20 @@ footer {
   right: 10px;
 }
 
-/* Introduction Paragraph */
+/* Auto-scrolling every 5 seconds */
+.skills-scroll-wrapper {
+  animation: scroll-right 5s linear infinite;
+}
+
+@keyframes scroll-right {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
 .skills-intro {
   text-align: center;
   font-size: 18px;
