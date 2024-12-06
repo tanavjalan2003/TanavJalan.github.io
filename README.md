@@ -12,6 +12,7 @@ Welcome to the portfolio website of **Tanav Jalan**. This website is designed to
 5. [Customization Guide](#customization-guide)
 6. [Deployment Instructions](#deployment-instructions)
 7. [Acknowledgments](#acknowledgments)
+8. [Contact](#Contact)
 
 ---
 
