@@ -18,10 +18,12 @@ Welcome to the portfolio website of **Tanav Jalan**. This website is designed to
 
 ## Features
 - **Home Page**: A welcoming introduction to the portfolio.
-- **Skills Page**: Showcases technical expertise with interactive slideshows.
 - **Education Page**: Lists academic achievements with institution logos and details.
 - **Certifications Page**: Highlights certifications with clickable verification links.
+- **Awards Page**: Showcases notable awards and honors, categorized for clarity and impact.
+- **Skills Page**: Showcases technical expertise with interactive slideshows.
 - **Work Experience Page**: Describes professional roles with downloadable offer letters and certificates.
+- **Projects Page**: Provides an overview of completed projects with descriptions and outcomes.
 - **Recommendations Page**: Displays testimonials with recommender photos and their quotes.
 - **Contact Page**: Provides quick links for phone, email, and social media platforms.
 
