@@ -24,56 +24,46 @@
   <main>
     <h2>Explore My Skills</h2>
     <p class="skills-intro">
-      Below are the categories of my technical expertise. Each skill set has a sliding display of associated technologies.
+      Below are the categories of my technical expertise. Click on the icons to learn more about my experience with each skill set.
     </p>
-
-    <div class="skills-list">
-      <!-- Programming Languages Section -->
-      <div class="skill-category">
-        <h3>Programming Languages</h3>
-        <div class="skills-slideshow">
-          <button class="arrow left-arrow" onclick="scrollSkills('programming', 'left')">&#8592;</button>
-          <div class="skills-scroll-wrapper" id="programming">
-            <div class="skills-scroll">
-              <img src="images/python.png" alt="Python">
-              <img src="images/sql.png" alt="SQL">
-              <img src="images/c-.png" alt="C++">
-              <img src="images/java.png" alt="Java">
-              <img src="images/r.png" alt="R">
-              <img src="images/matlab.png" alt="Matlab">
-              <img src="images/html.png" alt="Html">
-              <img src="images/css.png" alt="CSS">
-            </div>
-          </div>
-          <button class="arrow right-arrow" onclick="scrollSkills('programming', 'right')">&#8594;</button>
-        </div>
+    <div class="skills-grid">
+      <!-- Programming Section -->
+      <div>
+        <a href="programming.html">
+          <img src="images/program.png" alt="Programming Languages">
+          <p>Programming Languages</p>
+        </a>
       </div>
-      
       <!-- Cloud Platforms Section -->
-      <div class="skill-category">
-        <h3>Cloud Platforms</h3>
-        <div class="skills-slideshow">
-          <button class="arrow left-arrow" onclick="scrollSkills('cloud', 'left')">&#8592;</button>
-          <div class="skills-scroll-wrapper" id="cloud">
-            <div class="skills-scroll">
-              <img src="images/aws.png" alt="AWS">
-              <img src="images/azure.png" alt="Azure">
-              <img src="images/gcp.png" alt="GCP">
-              <img src="images/docker.png" alt="Docker">
-              <img src="images/k8s.png" alt="Kubernetes">
-            </div>
-          </div>
-          <button class="arrow right-arrow" onclick="scrollSkills('cloud', 'right')">&#8594;</button>
-        </div>
+      <div>
+        <a href="cloud.html">
+          <img src="images/cloud.png" alt="Cloud Platforms and Operating Systems">
+          <p>Cloud Platforms and Operating Systems</p>
+        </a>
       </div>
-
-      <!-- Add more categories as needed -->
+      <!-- Development Tools Section -->
+      <div>
+        <a href="development.html">
+          <img src="images/development.png" alt="Development Tools">
+          <p>Development Tools</p>
+        </a>
+      </div>
+      <div>
+        <a href="design.html">
+          <img src="images/design.png" alt="Design & User Experience">
+          <p>Design & User Experiences</p>
+        </a>
+      </div>
+      <div>
+        <a href="soft.html">
+          <img src="images/soft.png" alt="Soft Skills">
+          <p>Soft Skiils</p>
+        </a>
+      </div>
     </div>
   </main>
   <footer>
     <p>© 2024 Tanav Jalan. All rights reserved.</p>
   </footer>
-
-  <script src="script.js"></script>
 </body>
 </html>
