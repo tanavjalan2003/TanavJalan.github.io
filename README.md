@@ -33,11 +33,11 @@ Welcome to the portfolio website of **Tanav Jalan**. This website is designed to
 - **Assets**: Images for logos, certificates, and recommender photos.
 
 ---
-
+file_structure_code = """
 ## File Structure
 
 /project-folder ├── index.html # Home Page ├── skills.html # Skills Page ├── education.html # Education Page ├── certifications.html # Certifications Page ├── work-experience.html # Work Experience Page ├── recommendations.html # Recommendations Page ├── contact.html # Contact Page ├── style.css # CSS file for styling ├── script.js # JavaScript file for interactive elements ├── /images/ # Folder for institution and platform logos ├── /documents/ # Folder for certificates and offer letters
-
+"""
 
 ## How to Use
 1. **Navigate Pages**:
