@@ -1,8 +1,8 @@
 /* General styling */
 body {
   font-family: Arial, sans-serif;
-  background-color: #f5f5dc;
-  color: #5f4b32;
+  background-color: #f5f5dc; /* Beige */
+  color: #5f4b32; /* Dark brown */
   margin: 0;
   display: flex;
   flex-direction: column;
@@ -12,13 +12,13 @@ body {
 header {
   text-align: center;
   padding: 20px;
-  background-color: #d2b48c;
+  background-color: #d2b48c; /* Tan */
 }
 
 nav {
   display: flex;
   justify-content: center;
-  background-color: #c19a6b;
+  background-color: #c19a6b; /* Light brown */
   padding: 10px;
 }
 
@@ -55,17 +55,16 @@ nav a:hover {
 }
 
 .intro-text h2 {
-  color: #8b4513;
+  color: #8b4513; /* Saddle brown */
 }
 
-/* Resume Button Container */
+/* Resume Button */
 .resume-container {
   display: flex;
   justify-content: center;
   margin: 20px 0;
 }
 
-/* Resume Button Styling */
 .resume-button {
   padding: 15px 25px;
   background-color: #8b4513;
@@ -74,7 +73,6 @@ nav a:hover {
   font-size: 16px;
   font-weight: bold;
   border-radius: 5px;
-  border: none;
   cursor: pointer;
 }
 
@@ -82,15 +80,14 @@ nav a:hover {
   background-color: #5f4b32;
 }
 
-/* Footer styling */
+/* Footer */
 footer {
   text-align: center;
   padding: 10px;
   background-color: #d2b48c;
-  position: relative;
 }
 
-/* Grid Layout for Skills Pages */
+/* Skills Page */
 .skills-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
@@ -109,7 +106,7 @@ footer {
   background-color: #f5deb3;
   border-radius: 10px;
   padding: 10px;
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s;
 }
 
@@ -124,24 +121,7 @@ footer {
   color: #5f4b32;
 }
 
-/* Center alignment for non-linked items */
-.skills-grid div img {
-  display: block;
-  margin: 0 auto;
-}
-
-/* Introduction Paragraph */
-.skills-intro {
-  text-align: center;
-  font-size: 18px;
-  margin-bottom: 20px;
-  color: #5f4b32;
-  max-width: 800px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-/* Education Page Styles */
+/* Education Page */
 .education-entry {
   display: flex;
   align-items: center;
@@ -150,7 +130,7 @@ footer {
   padding: 10px;
   background-color: #f5deb3;
   border-radius: 10px;
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
 
 .education-entry img {
@@ -158,20 +138,13 @@ footer {
   height: 120px;
   object-fit: cover;
   border-radius: 10px;
-  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.1);
-}
-
-.education-entry div {
-  flex: 1;
 }
 
 .education-entry h3 {
-  margin: 0;
   color: #8b4513;
 }
 
 .education-entry p {
-  margin: 5px 0;
   color: #5f4b32;
 }
 
@@ -184,7 +157,7 @@ footer {
   padding: 10px;
   background-color: #f5deb3;
   border-radius: 10px;
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
 
 .experience-entry img {
@@ -192,46 +165,23 @@ footer {
   height: 120px;
   object-fit: cover;
   border-radius: 10px;
-  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.1);
-}
-
-.experience-entry div {
-  flex: 1;
 }
 
 .experience-entry h3 {
-  margin: 0;
   color: #8b4513;
 }
 
 .experience-entry p, .experience-entry ul {
-  margin: 5px 0;
   color: #5f4b32;
+  margin: 5px 0;
 }
 
 .experience-entry ul {
   padding-left: 20px;
 }
 
-.experience-entry ul li {
+.experience-entry li {
   margin-bottom: 5px;
-}
-
-/* Document Links */
-.document-link {
-  display: inline-block;
-  margin-top: 10px;
-  padding: 5px 15px;
-  background-color: #8b4513;
-  color: white;
-  text-decoration: none;
-  font-size: 14px;
-  border-radius: 5px;
-  transition: background-color 0.3s;
-}
-
-.document-link:hover {
-  background-color: #5f4b32;
 }
 
 /* Certifications Section */
@@ -243,7 +193,6 @@ footer {
   width: 90%;
   max-width: 850px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
-  font-family: 'Arial', sans-serif;
 }
 
 #certifications h2 {
@@ -251,14 +200,11 @@ footer {
   color: #6a4b34;
   font-size: 24px;
   margin-bottom: 20px;
-  text-transform: uppercase;
-  letter-spacing: 1px;
 }
 
 .certification-list {
   list-style-type: none;
   padding: 0;
-  margin: 0;
 }
 
 .certification-list li {
@@ -267,71 +213,26 @@ footer {
   gap: 20px;
   padding: 15px;
   border: 1px solid #ddd;
+  background-color: #fff;
   border-radius: 10px;
   margin-bottom: 15px;
-  background-color: #fff;
-  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
-  transition: transform 0.2s, box-shadow 0.2s;
+  transition: transform 0.2s;
 }
 
 .certification-list li:hover {
   transform: scale(1.02);
-  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
 }
 
 .cert-logo {
   width: 50px;
   height: 50px;
-  object-fit: contain;
   border-radius: 8px;
-  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.15);
 }
 
 .certification-list span {
   font-weight: bold;
   color: #6a4b34;
-  font-size: 18px;
 }
-
-.certification-list ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
-
-.certification-list a {
-  color: #1a73e8;
-  text-decoration: none;
-  font-size: 16px;
-  transition: color 0.2s, text-decoration 0.2s;
-}
-
-.certification-list a:hover {
-  text-decoration: underline;
-  color: #135bb5;
-}
-
-/* Media Queries for Responsiveness */
-@media (max-width: 600px) {
-  .certification-list li {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .cert-logo {
-    width: 40px;
-    height: 40px;
-  }
-
-  .certification-list span {
-    font-size: 16px;
-  }
-
-  .certification-list a {
-    font-size: 14px;
-  }
-}
-
 
 /* Contact Section */
 #contact {
@@ -339,41 +240,38 @@ footer {
   background-color: #f5deb3;
   border-radius: 10px;
   margin: 20px auto;
+  text-align: center;
   width: 90%;
   max-width: 800px;
-  text-align: center;
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
-}
-
-#contact h2 {
-  color: #8b4513;
-  margin-bottom: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
 
 .contact-grid {
   display: flex;
   justify-content: center;
-  align-items: center;
   gap: 20px;
   flex-wrap: wrap;
-  margin-top: 20px;
-}
-
-.contact-item {
-  display: inline-block;
-  text-decoration: none;
 }
 
 .contact-item img {
   width: 50px;
   height: 50px;
-  object-fit: contain;
-  border-radius: 5px;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease;
+  transition: transform 0.3s;
 }
 
 .contact-item:hover img {
   transform: scale(1.1);
 }
 
+/* Responsive Design */
+@media (max-width: 600px) {
+  .education-entry,
+  .experience-entry {
+    flex-direction: column;
+    text-align: center;
+  }
+  .certification-list li {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
